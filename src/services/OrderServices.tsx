@@ -1,12 +1,13 @@
 import { toast } from "react-toastify";
 import type { CreateOrderType } from "../types/OrderType";
-import api from "./axios";
+// import api from "./axios";
 import { sendMessage } from "../utils/sendMessageWpp";
 
 export async function newOrder(data: CreateOrderType) {
     try {
         // await api.post('/pedido', data)
-        await api.post('https://topdog-backend.onrender.com/pedido', data)
+        //problema no email de pedidos, por isso o nodelemail não conseguia mandar o email.
+        // await api.post('http://localhost:3333/pedido', data)
         // console.log(response)
         toast.success("Seu pedido está sendo processado!")
         alert("Estamos redirecionando para o nosso Whatsapp!")
