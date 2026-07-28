@@ -148,7 +148,7 @@ A aplicação foi desenvolvida pensando em desafios encontrados em sistemas reai
 
 
 
-<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,nodejs,express,prisma,postgres,git,github" />
+<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,nodejs,express,git,github" />
 
 
 
@@ -183,10 +183,6 @@ A aplicação foi desenvolvida pensando em desafios encontrados em sistemas reai
 - **Node.js** — Ambiente de execução do servidor;
 
 - **Express** — Criação da API;
-
-- **Prisma ORM** — Comunicação com banco de dados;
-
-- **PostgreSQL** — Persistência das informações.
 
 
 
